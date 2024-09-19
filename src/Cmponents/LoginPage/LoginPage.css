@@ -1,0 +1,38 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  height: 200px;
+  gap: 15px;
+  margin-left: 650px;
+}
+
+input {
+  border-radius: 8px;
+  height: 30px;
+  padding: 5px;
+  border: 1px solid grey;
+}
+
+button {
+  border-radius: 8px;
+  height: 40px;
+
+  border: 1px solid grey;
+}
+
+form {
+  border-radius: 8px;
+  height: 40px;
+  margin-top: 5px;
+  padding-top: 5px;
+  border: 1px solid rgb(241, 219, 219);
+}
+
+.submit:hover {
+  background-color: #45a049; /* По-тъмна зелена при hover */
+}
+
+.sighUp:hover {
+  background-color: #ea4407; /* По-тъмна зелена при hover */
+}

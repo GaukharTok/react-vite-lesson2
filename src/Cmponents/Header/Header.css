@@ -1,0 +1,81 @@
+/* header {
+  display: flex;
+  background-color: rgb(171, 175, 175);
+  width: 100vw;
+  justify-content: space-between;
+  align-items: center;
+}
+li {
+  list-style: none;
+}
+.menu-items {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.menu {
+  display: flex;
+  justify-content: center;
+} */
+
+/* Header.css */
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  background-color: rgb(171, 175, 175);
+}
+
+header h2 {
+  margin: 0;
+  font-size: 1.5em;
+  color: #333;
+}
+
+header img {
+  border-radius: 50%; /* Круглая форма для логотипа */
+  margin-left: 10px;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  margin-right: 770px;
+}
+
+.menu-bar {
+  margin-left: auto; /* Сдвигаем меню вправо */
+}
+
+.menu-items {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 20px; /* Пробел между пунктами меню */
+}
+
+.menu-items li {
+  cursor: pointer;
+  padding: 10px 15px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.menu-items li:hover {
+  background-color: rgba(0, 0, 0, 0.1); /* Подсветка при наведении */
+  border-radius: 5px;
+}
+
+@media (max-width: 600px) {
+  header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .menu-bar {
+    width: 100%;
+    text-align: center; /* Центрируем меню на маленьких экранах */
+  }
+}
